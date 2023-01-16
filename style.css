@@ -1,0 +1,287 @@
+body {
+  background: #E4CDAB;
+  font-size: 80%;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.logo-shop{
+  width: 35px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#header-h1{
+  display: inline-block;
+  padding-left: 10px;
+  font-family: 'Life Savers', cursive;
+}
+
+h1 {
+  /* color: #FFF; */
+  font-size: 3.2em;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  margin: 0%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+
+.product {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 0;
+}
+
+.product .price {
+  color: #f00;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.content{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  
+  
+}
+
+
+.add-to-cart{
+  position: relative;
+
+}
+
+.img-product{
+  width: 90px;
+}
+
+
+#shopping-cart{
+padding-left: 60px;
+
+}
+
+
+ .box{
+  background: #ebf5fc;
+  border-radius: 15px;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  width: 250px;
+  height: 300px;
+}
+
+.container{
+  display: flex;
+}
+
+#main{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+
+}
+
+.li-img {
+  list-style-type: none;
+  padding: 10px;
+  position: relative;
+  
+}
+
+.large {
+  position: absolute;
+  left: -9999px;
+  
+}
+
+li:hover .large {
+  left: 20px;
+  top: 150px;
+ width: 80px;
+}
+
+.large-image {
+  border-radius: 4px;
+   box-shadow: 1px 1px 3px 3px rgba(127, 127, 127, 0.15);;
+   width: 50ch;
+   
+}
+
+
+.product1-rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  }
+  .product1-rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+  }
+  .product1-rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+  }
+  .product1-rate:not(:checked) > label:before {
+  content: '★ ';
+  }
+  .product1-rate > input:checked ~ label {
+  color: #ffc700;
+  }
+.product1-rate:not(:checked) > label:hover,
+.product1-rate:not(:checked) > label:hover ~ label {
+color: #deb217;
+}
+.product1-rate > input:checked + label:hover,
+.product1-rate > input:checked + label:hover ~ label,
+.product1-rate > input:checked ~ label:hover,
+.product1-rate > input:checked ~ label:hover ~ label,
+.product1-rate > label:hover ~ input:checked ~ label {
+color: #c59b08;
+}
+
+.product2-rate {
+float: left;
+height: 46px;
+padding: 0 10px;
+}
+.product2-rate:not(:checked) > input {
+position:absolute;
+top:-9999px;
+}
+.product2-rate:not(:checked) > label {
+float:right;
+width:1em;
+overflow:hidden;
+white-space:nowrap;
+cursor:pointer;
+font-size:30px;
+color:#ccc;
+}
+.product2-rate:not(:checked) > label:before {
+content: '★ ';
+}
+.product2-rate > input:checked ~ label {
+color: #ffc700;
+}
+.product2-rate:not(:checked) > label:hover,
+.product2-rate:not(:checked) > label:hover ~ label {
+color: #deb217;
+}
+.product2-rate > input:checked + label:hover,
+.product2-rate > input:checked + label:hover ~ label,
+.product2-rate > input:checked ~ label:hover,
+.product2-rate > input:checked ~ label:hover ~ label,
+.product2-rate > label:hover ~ input:checked ~ label {
+color: #c59b08;
+}
+
+.product3-rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  }
+  .product3-rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+  }
+  .product3-rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+  }
+  .product3-rate:not(:checked) > label:before {
+  content: '★ ';
+  }
+  .product3-rate > input:checked ~ label {
+  color: #ffc700;
+  }
+  .product3-rate:not(:checked) > label:hover,
+  .product3-rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+  }
+  .product3-rate > input:checked + label:hover,
+  .product3-rate > input:checked + label:hover ~ label,
+  .product3-rate > input:checked ~ label:hover,
+  .product3-rate > input:checked ~ label:hover ~ label,
+  .product3-rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+  }

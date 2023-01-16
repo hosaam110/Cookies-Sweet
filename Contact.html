@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact-css.css">
+</head>
+
+<body>
+  <!-- code opens the header element -->
+  <header>
+    <!-- inserts an image -->
+    <img src="imgs/shop-bag.png" alt="" class="logo-shop">
+    <!-- inserts a level 1 heading element with the text  -->
+    <h1 id="header-h1">Cookie Sweet</h1>
+  </header>
+  <nav>
+    <!-- opens an unordered list element -->
+    <ul>
+      <!-- code inserts a list item element -->
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="shopping.html">Shopping</a></li>
+    </ul>
+    <!-- code opens a division element to be used to apply specific styles  -->
+    <div id="nav-search">
+      <!-- inserts a text input element -->
+      <input placeholder="Search...">
+      <!-- inserts a button element into the form. -->
+      <button type="submit">Go</button>
+    </div>
+  </nav>
+  <!-- used to apply specific styles -->
+  <main>
+    <!-- code opens a division element to be used to apply specific styles  -->
+    <div class="box-contact">
+      <div id="container">
+        <!-- inserts a level 1 heading element with the text  -->
+        <h1 class="keep">&bull; Keep in Touch &bull;</h1>
+        <div class="underline">
+        </div>
+        <!-- code opens a division element to be used to apply specific styles  -->
+        <div class="icon_wrapper">
+          <!-- inserts an image -->
+          <img src="imgs/shop-bag.png" alt="" class="icon_wrapper">
+        </div>
+        <!-- is used to create an form -->
+        <form id="contact_form">
+          <div class="name">
+            <!-- inserts a text input element -->
+            <input type="text" placeholder="My name is" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <!-- inserts a email input element -->
+            <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <!-- inserts a text input element -->
+            <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+          </div>
+          <div class="message">
+            <!-- ine of code inserts a label element that is associated with the "message" input field. -->
+            <label for="message"></label>
+            <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5"
+              required></textarea>
+          </div>
+          <div class="submit">
+            <!-- code inserts a submit button into the form. The "type" attribute specifies that the input -->
+            <input type="submit" value="Send Message" id="form_button" />
+          </div>
+        </form><!-- // End form -->
+      </div><!-- // End #container -->
+    </div>
+
+    <div class="box-contact-icon">
+      <!--  code inserts an image into -->
+      <a href="https://www.instagram.com/us7l7/"> <img src="imgs/inst.png" alt="" class="icon-contact"></a>
+      <!--  code inserts an image into -->
+      <a href="05528989903"><img src="imgs/call.png" alt="" class="icon-contact"></a>
+      <!--  code inserts an image into -->
+      <a href="hosaam2012@gmail.com"><img src="imgs/email.png" alt="" class="icon-contact"></a>
+    </div>
+
+
+
+
+  </main>
+  <footer>
+    Husam Alhabri &copy; 2023 My Crispy Sweet
+  </footer>
+</body>
+
+</html>
